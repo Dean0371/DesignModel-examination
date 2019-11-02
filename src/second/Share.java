@@ -45,7 +45,6 @@ public class Share {
 
     public void attach(Observer observer) {
         this.observer.add(observer);
-        observer.share = this;
     }
 
     public void notifyAllObservers() {

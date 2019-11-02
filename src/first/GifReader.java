@@ -1,4 +1,5 @@
 package first;
+
 public class GifReader implements ImageReader {
     @Override
     public void read() {

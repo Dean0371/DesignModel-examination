@@ -1,5 +1,6 @@
 package first;
-public class GifReaderFactory extends ImageReaderFactory{
+
+public class GifReaderFactory extends ImageReaderFactory {
     @Override
     public ImageReader createReader() {
         return new GifReader();
